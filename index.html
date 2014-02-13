@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gerrit Image Compare Bookmarklet</title>
+    </head>
+    <body>
+        Drag this to your bookmarks, then activate it when reviewing a changed image in Gerrit:
+        <a href="javascript:(function(){var jsCode=document.createElement('script');jsCode.setAttribute('src','https://raw.github.com/emarc/Gerrimg/master/gerrimg.js');document.body.appendChild(jsCode);})();">Activate Gerrimg</a>
+        <hr/>
+        You can also try it out on this page
+        <table>
+            <tr>
+                <td class="fileLineDELETE"><img src="newmod.png"></td>
+                <td class="fileLineINSERT"><img src="new.png"></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
