@@ -4,16 +4,27 @@
         <title>Gerrit Image Compare Bookmarklet</title>
     </head>
     <body>
+        <p>
         Drag this to your bookmarks, then activate it when reviewing a changed image in Gerrit:
-        <a href="javascript:(function(){var jsCode=document.createElement('script');jsCode.setAttribute('src','https://raw.github.com/emarc/Gerrimg/master/gerrimg.js');document.body.appendChild(jsCode);})();">Activate Gerrimg</a>
+        </p>
+        <p>
+            <a href="javascript:(function(){var jsCode=document.createElement('script');jsCode.setAttribute('src','https://raw.github.com/emarc/Gerrimg/master/gerrimg.js');document.body.appendChild(jsCode);})();">Activate Gerrimg</a>
+        </p>
+        <p>
+            It currently works on the left ('before') image. <br/>
+            You can <b>drag</b> to reveal before/after, or <b>double-click</b> to diff.
+        </p>
+
         <hr/>
-        You can also try it out on this page
+        You can also try it out here:
         <table>
             <tr>
                 <td class="fileLineDELETE"><img src="newmod.png"></td>
                 <td class="fileLineINSERT"><img src="new.png"></td>
             </tr>
         </table>
+        <hr/>
+        <a href="https://github.com/emarc/Gerrimg">https://github.com/emarc/Gerrimg</a>
     </body>
 </html>
 
